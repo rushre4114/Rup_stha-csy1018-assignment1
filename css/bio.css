@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+main{
+	display: flex;
+	flex-direction: row;
+}
+.main1{
+padding: 70px 0px 10px 50px;
+font-size : 1.6em;
+text-align: justify;
+font-family: 'Sansita', sans-serif;
+}
+.main2{
+
+}
+aside img{
+	width: 600px;
+	height: 800px;
+}

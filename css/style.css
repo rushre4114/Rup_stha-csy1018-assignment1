@@ -16,12 +16,13 @@ body{
 }
 
 header{
-	background: -webkit-linear-gradient(to top left, #093a6e, #808e9b);/*for safari*/
-	background: -o-linear-gradient(to top left, #093a6e, #808e9b);/*for the opera*/
-	background: -moz-linear-gradient(to top left, #093a6e, #808e9b);/*for the mozilla*/
-	background: linear-gradient( to top left, #093a6e, #808e9b);	/* Mixture of two color green and orange from top left to bottom right as gradient*/
+	background: -webkit-linear-gradient( #808e9b, #093a6e);/*for safari*/
+	background: -o-linear-gradient( #808e9b, #093a6e);/*for the opera*/
+	background: -moz-linear-gradient( #808e9b, #093a6e);/*for the mozilla*/
+	background: linear-gradient(  #808e9b, #093a6e);	/* Mixture of two color green and orange from top left to bottom right as gradient*/
 	display: flex;				/*defines the direction of the flexible items inside the flex container*/
 	flex-direction: row;			/* defined the direction of flex as row*/
+
 }
 
 
@@ -36,14 +37,25 @@ header{
 .logo:hover{
 	transform: scale(1.1,1.1);
 }
+.title{
+	
 
+}
 
 .title h3{
   	 padding-top: 55px;
 	color: #a4d1ff;
 	font-size: 2em;
     font-family: 'Audiowide', cursive;
+    transition-duration: 4s;
 }
+
+.title:hover h3{
+	cursor: pointer;
+	transform: rotateY(360deg);
+	color: brown;
+}
+
 .nav{
 
 
@@ -80,13 +92,14 @@ header{
 }
 
 .red{
-	background-color:#264e79;
+	background-color:#0b3b6f;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
+	box-shadow: 0px 10px 10px #466b84;
 }
 
 .black:hover{/* hover is used to select the element when mouse moves over them*/
-	background-color:#1c4875;
+	background-color:#0b3b6f;
 	border-bottom-left-radius: 15px; /*border radius only for the bottom left*/
 	border-bottom-right-radius: 15px;/*border radius only for the bottom right*/
 }
@@ -183,6 +196,7 @@ footer{
 
 
 .footer1{
+	box-shadow: 0px 0px 35px #093a6e;
 	display: flex;
 	flex-direction: row;
 	padding: 5px 0px 5px 20px;
@@ -247,12 +261,13 @@ footer{
 	.black:hover{
 		width: 100%; border-bottom-right-radius:0px; border-bottom-left-radius: 0px;
 	}
+	.text{font-size: 35px; padding-bottom: 50px; padding-top: 10px;}
 	header{display: flex; flex-direction: column;}
-	.title h3{ text-align: center; padding-top: 10px; padding-bottom: 20px;}
+	.title h3{ text-align: center; padding-top: 30px; padding-bottom: 50px;}
 	.logo{width: 100%; text-align: center;}
 	.image1{width: 100%; height: 100%; }
 	article{padding: 15px 0px 30% 0px; font-weight: 500; font-size: 25px; }
-	.topic{display: flex; flex-direction: column;}
+	.topic{display: flex; flex-direction: column; justify-content: flex-end;}
 	.footer1{display: flex; flex-direction: column;}
 	.footer12{margin-left: 0px; margin-top: 15px;}
 	.footer2{padding: 5px;}
