@@ -62,7 +62,7 @@ section{
 }
 
 
-section h3{
+.main h3{
 	margin-bottom: 5px;/* defines the margine for bottom only*/
 	background: -webkit-linear-gradient(  to right,  #526e8a, #526d89); /* For the Safari browser from 5.1 to 6.0 */
     background: -o-linear-gradient( to right,  #526e8a, #526d89); /* For Opera from 11.1 to 12.0 */
@@ -76,7 +76,7 @@ section h3{
 }
 
 
-section h4{
+.main h4{
 	margin-top: 15px;
 	font-size: 1.5em;
 	padding-left: 10px; /*defines the padding for left only*/

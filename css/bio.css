@@ -14,6 +14,19 @@ font-family: 'Sansita', sans-serif;
 
 }
 aside img{
-	width: 600px;
+	width: 500px;
 	height: 800px;
+
+}
+@media (max-width: 800px){
+	main{display: flex; flex-direction: column-reverse;}
+	.main1{width: 95%; font-size: 0.5em; padding: 5px;}
+	
+	aside{width: 95%; }
+	aside img{
+
+		width: 95%;
+		height: 600px;
+	}
+
 }

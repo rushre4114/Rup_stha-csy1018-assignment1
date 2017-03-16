@@ -1,0 +1,116 @@
+
+.contact0{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5%;
+	}
+
+.contact0 h3 {
+
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.contactform {
+	width:100%;
+	margin: 0px 5px;
+	margin-left: 15%;
+	
+}
+
+.contact111 {
+	width: 350px;
+	border-radius: 15px;
+	background:#5d758e;
+	padding:25px;
+	margin:50px 0;
+
+}
+
+
+.contact0 h4 {
+	margin:5px 0 25px 5px;
+	font-size:18px;
+}
+
+
+fieldset {
+
+	border:none; 
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+
+fieldset input  {
+	width:90%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+
+fieldset textarea{
+	width:90%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+
+}
+
+
+fieldset button {
+	cursor:pointer;
+	width:95%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+
+
+
+
+
+
+
+.contactdetail{
+	width: 100%;
+	margin-left:10px;
+}
+
+.contactdetail p{
+font-size: 20px;
+}
+.contact2{
+	border-radius: 15px;
+	width: 500px;
+	background:#5d758e;
+	padding:25px;
+	margin:50px 50px;
+}
+.contactdetail1{
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+
+}
+.contactdetail1 p{
+	margin-left: 10px;
+	padding: 5px;
+}
+.mapp{
+	color: brown;
+	padding: 5px 0px 1px 20px;
+	font-size: 2em;
+	font-weight: 800;
+}
+iframe{margin: 20px;}
