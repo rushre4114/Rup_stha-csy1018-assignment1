@@ -3,6 +3,7 @@
 	display: flex;
 	flex-direction: row;
 	margin-top: 5%;
+	padding-bottom: 70px;
 	}
 
 .contact0 h3 {
@@ -12,19 +13,16 @@
 	font-weight: 700;
 }
 
-.contactform {
-	width:100%;
-	margin: 0px 5px;
-	margin-left: 15%;
+
 	
-}
 
 .contact111 {
+	margin-left: 10%;
 	width: 350px;
 	border-radius: 15px;
-	background:#5d758e;
+	background-color:#e4e4e4;
 	padding:25px;
-	margin:50px 0;
+	border:2px solid white;
 
 }
 
@@ -76,26 +74,14 @@ fieldset button {
 }
 
 
-
-
-
-
-
-
-.contactdetail{
-	width: 100%;
-	margin-left:10px;
-}
-
-.contactdetail p{
-font-size: 20px;
-}
 .contact2{
+	margin-left: 5%;
+	width: 35%;
 	border-radius: 15px;
-	width: 500px;
-	background:#5d758e;
+	background:#e4e4e4;
 	padding:25px;
-	margin:50px 50px;
+	border:2px solid white;
+	font-size: 20px;
 }
 .contactdetail1{
 	margin: 10px;
@@ -107,10 +93,12 @@ font-size: 20px;
 	margin-left: 10px;
 	padding: 5px;
 }
-.mapp{
-	color: brown;
-	padding: 5px 0px 1px 20px;
-	font-size: 2em;
-	font-weight: 800;
+
+
+@media (max-width: 800px){
+
+	.contact0{display: flex; flex-direction: column;}
+	.contact111 {margin: 5px; width: 80%;}
+	.contact2{ margin: 5px; font-size: 16px; width: 80%;}
+	.contact0 h4{font-size: 12px;}
 }
-iframe{margin: 20px;}

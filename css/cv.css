@@ -45,16 +45,20 @@ section{
 
 
 .image img{
+	cursor: pointer;
 	border-radius: 100%;
 	border:2px solid #3c3c3c; /* The border formed around the content*/
 	box-shadow: 0px 0px 60px black; /* Formes the Shadow of box or the block*/
+	transition-duration: 1s;
 }
 .image p{
 	font-weight: 700; /*define the weight of the text*/
 	font-size: 2em; /*define the font size of the text*/
 	text-shadow: 0px 0px 5px brown;/* The shadow of text is formed*/
 }
-
+.image:hover img{
+	box-shadow: 0px 0px 60px brown; /* Formes the Shadow of box or the block*/
+}
 
 .main{
 	margin-left: 15%;
@@ -71,8 +75,10 @@ section{
 	color: white;
 	font-size: 2em;
 	padding: 4px 0px 4px 15px;
-	border-top-right-radius:5px; 
+	width: 40%;
 	border-top-left-radius:5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 3px 3px 10px #3f5469;
 }
 
 
@@ -152,7 +158,7 @@ section{
 
 
 .keyskill ul{
- padding: 0px 0px 15px 25px;
+ padding: 15px 0px 15px 25px;
 
 }
 
@@ -179,6 +185,7 @@ section{
 	.topices {width: 100%;}
 	.topices h2{width: 100%; font-size: 1.5em; text-align: center; border-radius: 0px; padding:15px 0px 15px 0px;}
 	.main {text-align:left; font-size: 0.8em;}
+	.main h3{width: auto; font-size: 20px; border-top-right-radius: 5px; border-bottom-right-radius:0px; box-shadow: 0px 0px 0px;}
 	.footer1{display: flex; flex-direction: column;}
 	.footer12{margin-left: 0px; margin-top: 15px;}
 
