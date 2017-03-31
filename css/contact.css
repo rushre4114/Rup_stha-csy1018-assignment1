@@ -1,4 +1,6 @@
-
+/* Name= Rupak Shrestha 
+Student ID= 16418521*/ 
+/*this is css file of contact*/
 .contact0{
 	display: flex;
 	flex-direction: row;
@@ -7,10 +9,9 @@
 	}
 
 .contact0 h3 {
-
+	font-family: 'Roboto', sans-serif;/*imported font family form google font*/
 	display: block;
-	font-size: 30px;
-	font-weight: 700;
+	font-size: 2em;/*font size expressed in em*/
 }
 
 
@@ -19,21 +20,23 @@
 .contact111 {
 	margin-left: 10%;
 	width: 350px;
-	border-radius: 15px;
-	background-color:#e4e4e4;
+	border-radius: 15px;/*creates the radius over border*/
+	background-color:#e4e4e4;/*color code are used instead of name*/
 	padding:25px;
 	border:2px solid white;
+	box-shadow: 0px 0px 15px black;
 
 }
 
 
 .contact0 h4 {
+	font-family: 'Sansita', sans-serif;/* this font family is imported from google font*/
 	margin:5px 0 25px 5px;
-	font-size:18px;
+	font-size:1em;
 }
 
 
-fieldset {
+fieldset {/* defines the property of fieldset of this css file*/
 
 	border:none; 
 	margin: 0 0 10px;
@@ -43,7 +46,7 @@ fieldset {
 }
 
 
-fieldset input  {
+fieldset input  {/*defines the property of input inside the fieldset*/
 	width:90%;
 	border:1px solid #CCC;
 	background:#FFF;
@@ -52,7 +55,7 @@ fieldset input  {
 }
 
 
-fieldset textarea{
+fieldset textarea{/*defines the property of textarea inside the textarea*/
 	width:90%;
 	border:1px solid #CCC;
 	background:#FFF;
@@ -62,7 +65,7 @@ fieldset textarea{
 }
 
 
-fieldset button {
+fieldset button {/*defines the property of the button inside the fieldset*/
 	cursor:pointer;
 	width:95%;
 	border:none;
@@ -70,7 +73,12 @@ fieldset button {
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
-	font-size:15px;
+	font-size:1em;
+	transition-duration: 1s;
+}
+fieldset button:hover{ /*properites of the button on cursor is hover on it*/
+background-color: green;
+
 }
 
 
@@ -81,8 +89,18 @@ fieldset button {
 	background:#e4e4e4;
 	padding:25px;
 	border:2px solid white;
-	font-size: 20px;
+	font-size: 1em;
+	box-shadow: 0px 0px 15px black;
 }
+.contactdetail1 img{
+	transition-duration: 1.5s;
+}
+.contactdetail1 img:hover{
+	transform: scale(1.2,1.2) rotate(360deg);
+
+
+}
+
 .contactdetail1{
 	margin: 10px;
 	display: flex;
@@ -90,15 +108,17 @@ fieldset button {
 
 }
 .contactdetail1 p{
+	 font-family: 'Roboto', sans-serif;	 /*imported font family from the google fonts*/
+	  font-size: 1em;
 	margin-left: 10px;
 	padding: 5px;
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 800px){/*defines the responsive property of the contact*/
 
 	.contact0{display: flex; flex-direction: column;}
 	.contact111 {margin: 5px; width: 80%;}
-	.contact2{ margin: 5px; font-size: 16px; width: 80%;}
-	.contact0 h4{font-size: 12px;}
+	.contact2{ margin: 5px; font-size: 0.8em; width: 80%;}
+	.contact0 h4{font-size: 0.5em;}
 }

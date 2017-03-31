@@ -12,6 +12,7 @@ Student ID =16418521*/
 	padding: 0px;
 }
 body{
+	width: 1349px;
 }
 
 header{
@@ -111,33 +112,43 @@ header{
 
 
 .image1{
-	background-image: url(../images/image3.jpg);/* background image is refrenced from temple university career center*/
+	background-image: url(../images/image5.jpg);/* background image is refrenced from temple university career center*/
 	width:100%;
 	height:758px;
 	background-size: cover;
-	
+	animation-name: rupak;
+	animation-delay: 2s;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;	
+}
+
+@keyframes rupak{
+     0%{background-image: url(../images/image5.jpg); width: 100%; height: 758px; background-size: cover;}
+     25%{background-image: url(../images/image4.jpg); width: 100%; height: 758px; background-size: cover;}
+     50%{background-image: url(../images/image6.jpg); width: 100%; height: 758px; background-size: cover;}
+     75%{background-image: url(../images/image7.jpg); width: 100%; height: 758px; background-size: cover;}
 }
 .text{
 	color: yellow;
 	font-weight: 800;
-	font-size: 7em;
+	font-size: 6em;
 	padding: 150px 0px 0px 50px;
 	text-shadow: -10px -5px 0px black;
 	transition-duration: 2s;
 	font-family: 'Arvo', serif;
 }
-span{color: white; 
+span{color: white; /*define the properties of span with in the text*/
 	padding-left: 20%;
 }
-.text1{font-size: 5em;
+.text1{font-size: 4em;
 	padding-left: 40%;
 	font-weight: 700;
 	color: yellow;
-	text-shadow: 0px 0px 8px black;
+	text-shadow: 0px 0px 15px black;
 
 }
 
-.topic{
+.topic{/*defines the properties of class topic*/
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -146,7 +157,7 @@ span{color: white;
 	background: -moz-linear-gradient( to right ,#6a8da9, white);
 	background: linear-gradient( to right ,#6a8da9, white);
 }
-.topic1{
+.topic1{/*defines the properties of class topic1*/
 	margin: 30px;
  	border:5px solid white;
 	 border-radius: 5%;
@@ -155,17 +166,17 @@ span{color: white;
 	box-shadow: 0px 0px 40px black;
 	overflow: hidden;
 }
-.topic1 a{
+.topic1 a{ /*defines the properties of "a" inside the class topic1*/
 	text-decoration: none;
 	color: white;
 	display: block;
 }
-.topic1 img{
+.topic1 img{/*efine the properties of image which is with in the topic1*/
 	cursor: pointer;
 	transition-duration: 1s;
 }
 
-.topic1:hover img{
+.topic1:hover img{/*properties on hovering the image in topic1 class*/
 	transform: rotate(30deg) scale(1.5,1.5);
 }
 .topic11{
@@ -174,7 +185,7 @@ span{color: white;
 	background-color: rgba(0,188,239,0.5);
 	transition: transform 1s;
 }
-.topic1:hover .topic11{
+.topic1:hover .topic11{/*properties on hovering the topic11 which lies on topic1 class*/
 	cursor: pointer;
 	transform: translateY(-251px);
 }
@@ -190,7 +201,7 @@ span{color: white;
 
 }
 
-footer{
+footer{/*defines the properties of the footer*/
 	color: #d6e6f5;
 	background: -webkit-linear-gradient(  to top left, #093a6e, #808e9b); /* For the Safari browser from 5.1 to 6.0 */
     background: -o-linear-gradient(  to top left, #093a6e, #808e9b); /* For Opera from 11.1 to 12.0 */
@@ -199,7 +210,7 @@ footer{
 }
 
 
-.footer1{
+.footer1{/*defines the properties of footer1 with in footer*/
 	box-shadow: 0px 0px 75px #093a6e;
 	display: flex;
 	flex-direction: row;
@@ -222,7 +233,7 @@ footer{
 }
 
 
-.icon img{
+.icon img{/*define the properties of icon image*/
 	cursor: pointer;
 	margin:5px 15px 5px 0px;
 	transition-duration: 1s;
@@ -258,21 +269,23 @@ footer{
 	margin-left: 25px;
 }
 @media (max-width: 800px){/* media makes the webpage responsive according to the width of the screen*/
+	body{width: 100%;}
 	.nav ul{display: flex; flex-direction: column; margin:0px;}
 	.nav ul li{width: 100%;}
 	.nav ul li a{width: 100%; text-align: center;}
-	.red{width: 100%; border-bottom-right-radius:0px; border-bottom-left-radius: 0px;}
+	.red{width: 100%; border-bottom-right-radius:0px; border-bottom-left-radius: 0px; opacity: 0.8;}
 	.black:hover{
 		width: 100%; border-bottom-right-radius:0px; border-bottom-left-radius: 0px;
 	}
 	.text{font-size: 35px; padding-bottom: 0px; padding-top: 10px; text-shadow: none;}
 	header{display: flex; flex-direction: column;}
 	.title h3{ text-align: center; padding-top: 30px; padding-bottom: 50px;}
-	.logo{width: 100%; text-align: center;}
+	.logo{width: 90%; text-align: center;}
 	.image1{width: 100%; height: 100%; }
+	@keyframes rupak{  visibility=none;}
 	article{padding: 15px 0px 30% 0px; font-weight: 500; font-size: 25px; }
 	.topic{display: flex; flex-direction: column; justify-content: flex-end;}
-	.footer1{display: flex; flex-direction: column;}
+	.footer1{display: flex; flex-direction: column; box-shadow: none;}
 	.footer12{margin-left: 0px; margin-top: 15px;}
 	.footer2{padding: 5px;}
 	.text1{font-size: 25px; padding-bottom: 50px; padding-top: 10px;}

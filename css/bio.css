@@ -1,3 +1,6 @@
+/* Name= Rupak Shrestha 
+Student ID= 16418521*/ 
+/*this font is imported from google font*/
 @import url('https://fonts.googleapis.com/css?family=Sansita');
 
 main{
@@ -8,17 +11,15 @@ main{
 padding: 70px 0px 10px 50px;
 font-size : 1.6em;
 text-align: justify;
-font-family: 'Sansita', sans-serif;
+font-family: 'Sansita', sans-serif;/* this font family is imported from google font*/
 }
-.main2{
 
-}
-aside img{
+aside img{/*defines the properties of image within the aside */
 	width: 500px;
 	height: 800px;
 
 }
-@media (max-width: 800px){
+@media (max-width: 800px){/*defines the properties of resposnsiveness for the bio*/
 	main{display: flex; flex-direction: column-reverse;}
 	.main1{width: 95%; font-size: 0.5em; padding: 5px;}
 	
