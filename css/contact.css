@@ -39,7 +39,7 @@ Student ID= 16418521*/
 fieldset {/* defines the property of fieldset of this css file*/
 
 	border:none; 
-	margin: 0 0 10px;
+	margin: 0 0 8px;
 	min-width: 100%;
 	padding: 0;
 	width: 100%;
@@ -48,19 +48,19 @@ fieldset {/* defines the property of fieldset of this css file*/
 
 fieldset input  {/*defines the property of input inside the fieldset*/
 	width:90%;
-	border:1px solid #CCC;
-	background:#FFF;
-	margin:0 0 5px;
-	padding:10px;
+	border:2px solid #b6b6b6;
+	background:#ffffff;
+	margin:0 0 4px;
+	padding:12px;
 }
 
 
 fieldset textarea{/*defines the property of textarea inside the textarea*/
 	width:90%;
-	border:1px solid #CCC;
-	background:#FFF;
-	margin:0 0 5px;
-	padding:10px;
+	border:1px solid #b6b6b6;
+	background:#ffffff;
+	margin:0 0 4px;
+	padding:12px;
 
 }
 
@@ -69,10 +69,10 @@ fieldset button {/*defines the property of the button inside the fieldset*/
 	cursor:pointer;
 	width:95%;
 	border:none;
-	background:#0CF;
-	color:#FFF;
-	margin:0 0 5px;
-	padding:10px;
+	background:#00ccff;
+	color:#ffffff;
+	margin:0 0 4px;
+	padding:12px;
 	font-size:1em;
 	transition-duration: 1s;
 }
